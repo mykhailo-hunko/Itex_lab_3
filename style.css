@@ -1,0 +1,28 @@
+
+.drop{
+   position: absolute;
+   top: 20px;
+   left: 20px;
+}
+.pos{
+   position: absolute;
+   left: 200px;
+   top: 20px;
+}
+.image{
+   position: absolute;
+   top: 80px;
+   left: 20px;
+}
+.inputParamsWH{
+   position: absolute;
+   top: 20px;
+   left: 250px;
+}
+.inputParamsTextM{
+   position: absolute;
+   top: 50px;
+   left: 20px;
+}
+
+

@@ -1,0 +1,54 @@
+<DOCTYPE html>
+    <html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title>lab_3</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+         body{
+             background-color: aquamarine;
+         }
+        </style>
+             <script type="text/javascript"  src= "script.js"></script>
+             <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+                </head>
+<body onload="none()">
+    <select class="drop" id="s1">
+        <option value="0">Выберите изображение</option>
+        <option value="1">Изображение 1</option>
+        <option value="2">Изображение 2</option>
+        <option value="3">Изображение 3</option>
+        <option value="4">Изображение 4</option>
+        <option value="5">Изображение 5</option>
+        <option value="6">Изображение 6</option>
+        <option value="7">Изображение 7</option>
+        <option value="8">Изображение 8</option>
+      </select>
+      <input type="button" onclick="f()" value="ok" class = "pos">
+     <div id="image">
+        <img src="1.jpg" alt="1_альтернативный текст" class="image" id="1_text">
+        <img src="2.jpg" alt="2_альтернативный текст" class="image" id="2_text">
+        <img src="3.jpg" alt="3_альтернативный текст" class="image" id="3_text">
+        <img src="4.jpg" alt="4_альтернативный текст" class="image" id="4_text">
+        <img src="5.jpg" alt="5_альтернативный текст" class="image" id="5_text">
+        <img src="6.jpg" alt="6_альтернативный текст" class="image" id="6_text">
+        <img src="7.jpg" alt="7_альтернативный текст" class="image" id="7_text">
+        <img src="8.jpg" alt="8_альтернативный текст" class="image" id="8_text">
+     </div>
+      
+      <div class="inputParamsWH">
+       <label for="lastname"> Width</label>
+      <input type="text" id="width">
+      <label for="lastname"> Height</label>
+      <input type="text" id="height">   
+      <input type="button" onclick="setSize()" value="Установить размер" class = "setSize">
+      </div>
+      <div class="inputParamsTextM">
+        <label for="lastname"> Text</label>
+       <input type="text" id="text">
+       <label for="lastname"> Рамка</label>
+       <input type="text" id="m">   
+       <input type="button" onclick="altText()" value="Установить" class = "setSize">
+       </div>
+      
+    </body>

@@ -22,9 +22,6 @@ function f(){
   }
 
   function none(){
-    for(let i = 1; i < 9; i++){
-      document.getElementById(i + "_text").style.display = "none"; 
-  }
   $('img').each(function(){$(this).css('width','400px')});
   $('img').each(function(){$(this).css('height','400px')});
   setDefaultSize();
